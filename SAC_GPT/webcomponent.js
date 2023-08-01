@@ -13,7 +13,8 @@ var ajaxCall = (key, url, prompt) => {
       }),
       headers: {
         "Content-Type": "application/json",
-        Authorization: `Bearer ${key}`,
+        Authorization: `Bearer ${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
+}`,
       },
       crossDomain: true,
       success: function (response, status, xhr) {
@@ -42,7 +43,8 @@ const url = "https://api.openai.com/v1";
     async post(apiKey, endpoint, prompt) {
       const { response } = await ajaxCall(
         apiKey,
-        `${url}/${endpoint}`,
+        `${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
+}/${https://chat.openai.com/}`,
         prompt
       );
       console.log(response.choices[0].text);
