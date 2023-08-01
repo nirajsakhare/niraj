@@ -31,12 +31,12 @@
 			"description": "Wrapper for jQuery post",
 			"parameters": [
 				{
-					"name": "APIKey",
+					"name": "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",
 					"type": "string",
 					"description": ""
 				},
 				{
-					"name": "endPoint",
+					"name": "https://chat.openai.com/",
 					"type": "string",
 					"description": ""
 				},
