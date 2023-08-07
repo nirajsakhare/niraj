@@ -28,7 +28,7 @@ var ajaxCall = (key, url, prompt) => {
   });
 };
 
-const url = "https://api.openai.com/v1/engines/text-davinci-002/completions";
+const url = "https://api.openai.com/v1/engines";
 
 (function () {
   const template = document.createElement("template");
